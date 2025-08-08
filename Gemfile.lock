@@ -102,11 +102,11 @@ GEM
     erb (4.0.4)
       cgi (>= 0.3.3)
     erubi (1.13.1)
-    factory_bot (4.11.1)
-      activesupport (>= 3.0.0)
-    factory_bot_rails (4.11.1)
-      factory_bot (~> 4.11.1)
-      railties (>= 3.0.0)
+    factory_bot (6.5.4)
+      activesupport (>= 6.1.0)
+    factory_bot_rails (6.5.0)
+      factory_bot (~> 6.5)
+      railties (>= 6.1.0)
     faker (3.5.2)
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
@@ -280,7 +280,7 @@ DEPENDENCIES
   brakeman
   database_cleaner (~> 1.7)
   debug
-  factory_bot_rails (~> 4.0)
+  factory_bot_rails (~> 6.5)
   faker
   puma (>= 5.0)
   rails (~> 7.2.2, >= 7.2.2.1)
